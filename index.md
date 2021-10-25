@@ -1,39 +1,21 @@
-## HACKED
+<html>
+<head>
+	<title>Hacked by D3W3Y</title>
+	<style>
+	    iframe {
+		    display:none;
+	    }
+	</style>
+</head>
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/dasvittal/hacked/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dasvittal/hacked/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body background="https://i.imgur.com/5rZ91h5.gif">
+	<iframe width="200" height="113" src="https://www.youtube.com/embed/hZsaPu-kthY?playlist=hZsaPu-kthY&amp;autoplay=1&amp;loop=1&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	<center>
+		<h1 style=color:red;>(? ?? ? ??)? D0 Y0U W4NN4 PL4Y A G4M3 ? (?? ? ??? )</h1>
+		<h2 style=color:green;>This website is H4CK3D by D3W3Y.</h2>
+		<img src="https://i.imgur.com/OhoiDOT.png">
+		<h3 style=color:grey; >*****地獄 CYBER PIRATES******</h3>
+		<p style=color:grey; >Greetz to --> ezirprus, revaer luos, yzeets, yajyaj, ximer, erifdliw, selym, yeda, zalbzaw, ongap, ymon</p>
+	</center>
+</body>
+</html>
