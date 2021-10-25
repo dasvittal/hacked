@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>Hacked </title>
+	<style>
+	   body {
+  background: black;
+}
+body a {
+  color: #fff;
+  font-size: 2.5em;
+  position: absolute;
+  bottom: 20px;
+}
+body a.site {
+  right: 20px;
+}
+body a.pen {
+  right: 60px;
+}
+body a.git {
+  right: 110px;
+}
+
+.glitch {
+  position: relative;
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Inconsolata", monospace;
+}
+.glitch:before, .glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  height: 100%;
+}
+.glitch:before {
+  left: 2px;
+  text-shadow: -1px 0 red;
+  background: black;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim-1 2s infinite linear alternate-reverse;
+}
+.glitch:after {
+  left: -2px;
+  text-shadow: -1px 0 blue;
+  background: black;
+  animation: glitch-anim-2 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim-1 {
+  0% {
+    clip: rect(21px, 9999px, 81px, 0);
+  }
+  10% {
+    clip: rect(21px, 9999px, 84px, 0);
+  }
+  20% {
+    clip: rect(7px, 9999px, 95px, 0);
+  }
+  30% {
+    clip: rect(16px, 9999px, 56px, 0);
+  }
+  40% {
+    clip: rect(87px, 9999px, 62px, 0);
+  }
+  50% {
+    clip: rect(87px, 9999px, 49px, 0);
+  }
+  60% {
+    clip: rect(89px, 9999px, 14px, 0);
+  }
+  70% {
+    clip: rect(41px, 9999px, 81px, 0);
+  }
+  80% {
+    clip: rect(42px, 9999px, 58px, 0);
+  }
+  90% {
+    clip: rect(76px, 9999px, 88px, 0);
+  }
+  100% {
+    clip: rect(1px, 9999px, 41px, 0);
+  }
+}
+@keyframes glitch-anim-2 {
+  0% {
+    clip: rect(56px, 9999px, 53px, 0);
+  }
+  10% {
+    clip: rect(30px, 9999px, 94px, 0);
+  }
+  20% {
+    clip: rect(74px, 9999px, 3px, 0);
+  }
+  30% {
+    clip: rect(60px, 9999px, 68px, 0);
+  }
+  40% {
+    clip: rect(50px, 9999px, 1px, 0);
+  }
+  50% {
+    clip: rect(73px, 9999px, 17px, 0);
+  }
+  60% {
+    clip: rect(14px, 9999px, 22px, 0);
+  }
+  70% {
+    clip: rect(40px, 9999px, 30px, 0);
+  }
+  80% {
+    clip: rect(94px, 9999px, 49px, 0);
+  }
+  90% {
+    clip: rect(33px, 9999px, 36px, 0);
+  }
+  100% {
+    clip: rect(5px, 9999px, 70px, 0);
+  }
+}
+	</style>
+</head>
+
+<body>
+	<div class="glitch" data-text="Hacked">Hacked</div><a class="site" href="https://daniel-ecker.000webhostapp.com/" target="_blank"><i class="fa fa-user" aria-hidden="true"></i></a><a class="pen" href="https://codepen.io/daniel_ecker/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a><a class="git" href="https://github.com/eckerdan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+</body>
+</html>
